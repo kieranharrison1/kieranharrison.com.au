@@ -78,3 +78,5 @@ Route::add('/logout', function () use ($auth0) {
 
 // This tells our router that we've finished configuring our routes, and we're ready to begin routing incoming HTTP requests:
 Route::run('/');
+
+?>
