@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <?php
 
 // Import the Composer Autoloader to make the SDK classes accessible:
@@ -83,13 +80,3 @@ Route::add('/logout', function () use ($auth0) {
 Route::run('/');
 
 ?>
-
-
-<body>
-
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-
-</body>
-
-</html>
