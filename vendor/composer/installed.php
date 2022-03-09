@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'auth0-samples/auth0-php-web-app',
-        'dev' => false,
+        'reference' => '9744e25fc6063de2c9be9d3a7b96cf38cf434d65',
+        'name' => '__root__',
+        'dev' => true,
     ),
     'versions' => array(
-        'auth0-samples/auth0-php-web-app' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '9744e25fc6063de2c9be9d3a7b96cf38cf434d65',
             'dev_requirement' => false,
         ),
         'auth0/auth0-php' => array(
@@ -56,12 +56,12 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
-            'pretty_version' => '1.8.3',
-            'version' => '1.8.3.0',
+            'pretty_version' => '2.1.0',
+            'version' => '2.1.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
-            'reference' => '1afdd860a2566ed3c2b0b4a3de6e23434a79ec85',
+            'reference' => '089edd38f5b8abba6cb01567c2a8aaa47cec4c72',
             'dev_requirement' => false,
         ),
         'http-interop/http-factory-guzzle' => array(
@@ -71,24 +71,6 @@
             'install_path' => __DIR__ . '/../http-interop/http-factory-guzzle',
             'aliases' => array(),
             'reference' => '8f06e92b95405216b237521cc64c804dd44c4a81',
-            'dev_requirement' => false,
-        ),
-        'hyperf/contract' => array(
-            'pretty_version' => 'v2.2.8',
-            'version' => '2.2.8.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../hyperf/contract',
-            'aliases' => array(),
-            'reference' => '6fe18888f8f868a7dad78fefe9397e45a39f3b2e',
-            'dev_requirement' => false,
-        ),
-        'hyperf/event' => array(
-            'pretty_version' => 'v2.2.0',
-            'version' => '2.2.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../hyperf/event',
-            'aliases' => array(),
-            'reference' => '9c2ab56737d080d799b9b1f905716c7bf0d61ef6',
             'dev_requirement' => false,
         ),
         'php-http/discovery' => array(
@@ -190,7 +172,8 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '^1.0',
+                0 => '1.0',
+                1 => '^1.0',
             ),
         ),
         'psr/http-message' => array(
@@ -215,6 +198,15 @@
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'dev_requirement' => false,
+        ),
+        'steampixel/simple-php-router' => array(
+            'pretty_version' => '0.7.0',
+            'version' => '0.7.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../steampixel/simple-php-router',
+            'aliases' => array(),
+            'reference' => '91aec2d0bca3619c0552e2bfcebb8936e6f83bb9',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
