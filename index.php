@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <?php
 
 // Import the Composer Autoloader to make the SDK classes accessible:
@@ -81,8 +84,6 @@ Route::run('/');
 
 ?>
 
-<!DOCTYPE html>
-<html>
 
 <body>
 
